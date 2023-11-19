@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: 'handlee';
+    font-size: 24px;
+    color: #faebd7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37401b;
+    padding: 0px 20px;
+}
+
+.Home {
+    width: 275px;
+}
+
+.Home:hover {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+    background-color: #faebd7;
+}
+
+.nav__links button {
+    display: inline-block;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: none;
+    border-top: none;
+    border-color: #faebd7;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 120px;
+    width: 140px;
+    background-color: #37401b;
+}
+
+.nav__links button:hover {
+    color: black;
+    transition: all .75s ease 0s;
+    cursor: pointer;
+}
+
+.Fall:hover {
+    background-color: #d4ad65;
+}
+.Winter:hover {
+    background-color: #97cdd5;
+}
+.All:hover {
+    background-color: #9675B4;
+}
+.Spring:hover {
+    background-color: #bfd272;
+}
+.Summer:hover {
+    background-color: #ddd671;
+}
+
+.about {
+    padding: 9px 25px;
+    background-color: #9675B4;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.about:hover {
+    background-color: #9675b47c;
+}
