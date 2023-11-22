@@ -87,6 +87,12 @@
     transform: translateY(-10px);
 }
 
+#swiper-container-1 .swiper-button-next:hover,#swiper-container-1 .swiper-button-prev:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+    background-color: #9675B4;
+}
+
 #swiper-container-2 .swiper-button-next,#swiper-container-2 .swiper-button-prev {
     color: #d4ad65;
     transition: all 0.6s ease 0s;
@@ -95,6 +101,12 @@
     width: 30px;
     border-radius: 5px;
     transform: translateY(-10px);
+}
+
+#swiper-container-2 .swiper-button-next:hover,#swiper-container-2 .swiper-button-prev:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+    background-color: #d4ad65;
 }
 
 #swiper-container-3 .swiper-button-next,#swiper-container-3 .swiper-button-prev {
@@ -107,6 +119,12 @@
     transform: translateY(-10px);
 }
 
+#swiper-container-3 .swiper-button-next:hover,#swiper-container-3 .swiper-button-prev:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+    background-color: #97cdd5;
+}
+
 #swiper-container-4 .swiper-button-next,#swiper-container-4 .swiper-button-prev {
     color: #bfd272;
     transition: all 0.6s ease 0s;
@@ -115,6 +133,12 @@
     width: 30px;
     border-radius: 5px;
     transform: translateY(-10px);
+}
+
+#swiper-container-4 .swiper-button-next:hover,#swiper-container-4 .swiper-button-prev:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+    background-color: #bfd272;
 }
 
 #swiper-container-5 .swiper-button-next,#swiper-container-5 .swiper-button-prev {
@@ -127,9 +151,14 @@
     transform: translateY(-10px);
 }
 
+#swiper-container-5 .swiper-button-next:hover,#swiper-container-5 .swiper-button-prev:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+    background-color: #ddd671;
+}
+
 .swiper-button-next:hover, .swiper-button-prev:hover {
     cursor: pointer;
-    transform: scale(1.1);
 }
 
 .swiper {
