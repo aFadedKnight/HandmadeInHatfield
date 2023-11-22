@@ -1,3 +1,63 @@
 .All {
     background-color: #9675B4!important; 
 }
+
+.Crafts {
+    padding: 120px;
+    display: grid;
+}
+
+.Winter-craft {
+    background-color: #97cdd5;
+}
+
+.YearRound-craft {
+    background-color: #9675B4;
+}
+
+.Craft:hover {
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.Craft img {
+    width: 100%;
+}
+
+.Craft-Details {
+    text-align: center;
+}
+
+.Winter-Items, .YearRound-Items{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+}
+
+.swiper-container-1 .swiper-slide, .swiper-container-2 .swiper-slide {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.swiper-slide:hover {
+    transform: scale(.95);
+}
+
+.swiper-container-1,.swiper-container-2 {
+    overflow: hidden;
+}
+
+#swiper-container-1 .swiper-button-next,#swiper-container-1 .swiper-button-prev {
+    color: #9675B4;
+    transition: all 0.3s ease 0s;
+}
+
+#swiper-container-2 .swiper-button-next,#swiper-container-2 .swiper-button-prev {
+    color: #97cdd5;
+    transition: all 0.3s ease 0s;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    cursor: pointer;
+}

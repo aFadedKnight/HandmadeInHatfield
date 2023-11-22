@@ -1,11 +1,33 @@
 .Winter {
-    background-color: rgb(151, 205, 213)!important; 
+    background-color: #97cdd5!important; 
+}
+
+.Crafts {
+    padding: 120px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
 }
 
 .Craft {
-    background-color: grey;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.422);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    background-color: #97cdd5;
+}
+
+.Craft:hover {
+    cursor: pointer;
+    transform: scale(.95);
+    box-shadow: 0px 7px 7px #97cdd586;
+    color: antiquewhite;
 }
 
 .Craft img {
-    width: 500px;
+    width: 100%;
+}
+
+.Craft-Details {
+    text-align: center;
 }

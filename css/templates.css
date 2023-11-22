@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 * {
+    font-family: 'handlee';
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-li, a, button {
-    font-family: 'handlee';
+li, button {
     font-size: 24px;
     color: #faebd7;
 }
@@ -43,7 +43,7 @@ header {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     height: 120px;
-    width: 140px;
+    width: 135px;
     background-color: #37401b;
 }
 
@@ -80,3 +80,4 @@ header {
 .about:hover {
     background-color: #9675b47c;
 }
+

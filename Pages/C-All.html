@@ -5,10 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Crafts</title>
     <script type="module" src="../js/templates.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/templates.css">
 </head>
 <body>
     <site-header></site-header>
+    <div class="YearRound-Items">
+        <h1>Year Round</h1>
+        <div class="swiper swiper-container-1" id="swiper-container-1">
+            <div class="swiper-wrapper">
+                <!-- Craft Item 1 -->
+                <div class="swiper-slide">
+                    <a class="YearRound-craft Craft">
+                        <img src="../Images/PNG/GreenTree.png" alt="Crochet Green Winter Christmas Tree">
+                        <div class="YearRound-craft Craft-Details">
+                            <h3>Winter Trees</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 2 -->
+                <div class="swiper-slide">
+                    <a class="YearRound-craft Craft">
+                        <img src="../Images/PNG/YarnAngel.png" alt="Crochet angel made of yarn">
+                        <div class="YearRound-craft Craft-Details">
+                            <h3>Angels</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 3 -->
+                <div class="swiper-slide">
+                    <a class="YearRound-craft Craft">
+                        <img src="../Images/PNG/Pengin.png" alt="Crochet Penguin">
+                        <div class="YearRound-craft Craft-Details">
+                            <h3>Penguins</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 4 -->
+                <div class="swiper-slide">
+                    <a class="YearRound-craft Craft">
+                        <img src="../Images/PNG/TriFlakes.png" alt="3 Crochet Snowflakes">
+                        <div class="YearRound-craft Craft-Details">
+                            <h3>Snowflakes</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 5 -->
+                <div class="swiper-slide">
+                    <a class="YearRound-craft Craft">
+                        <img src="../Images/PNG/Stockings.png" alt="Crochet stockings">
+                        <div class="YearRound-craft Craft-Details">
+                            <h3>Stockings</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Repeat the above div for each Craft item -->
+            </div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="Winter-Items">
+        <h1>Winter</h1>
+        <div class="swiper swiper-container-2" id="swiper-container-2">
+            <div class="swiper-wrapper">
+                <!-- Craft Item 1 -->
+                <div class="swiper-slide">
+                    <a class="Winter-craft Craft">
+                        <img src="../Images/PNG/GreenTree.png" alt="Crochet Green Winter Christmas Tree">
+                        <div class="Winter-craft Craft-Details">
+                            <h3>Winter Trees</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 2 -->
+                <div class="swiper-slide">
+                    <a class="Winter-craft Craft">
+                        <img src="../Images/PNG/YarnAngel.png" alt="Crochet angel made of yarn">
+                        <div class="Winter-craft Craft-Details">
+                            <h3>Angels</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 3 -->
+                <div class="swiper-slide">
+                    <a class="Winter-craft Craft">
+                        <img src="../Images/PNG/Pengin.png" alt="Crochet Penguin">
+                        <div class="Winter-craft Craft-Details">
+                            <h3>Penguins</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 4 -->
+                <div class="swiper-slide">
+                    <a class="Winter-craft Craft">
+                        <img src="../Images/PNG/TriFlakes.png" alt="3 Crochet Snowflakes">
+                        <div class="Winter-craft Craft-Details">
+                            <h3>Snowflakes</h3>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Craft Item 5 -->
+                <div class="swiper-slide">
+                    <a class="Winter-craft Craft">
+                        <img src="../Images/PNG/Stockings.png" alt="Crochet stockings">
+                        <div class="Winter-craft Craft-Details">
+                            <h3>Stockings</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Repeat the above div for each Craft item -->
+            </div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <script>
+        var swiper1 = new Swiper('.swiper-container-1', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: false,
+    });
+
+    var swiper2 = new Swiper('.swiper-container-2', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: false,
+    });
+    </script>
 </body>
 </html>
