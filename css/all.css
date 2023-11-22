@@ -43,7 +43,28 @@
 .Winter-Items, .YearRound-Items, .Fall-Items, .Spring-Items, .Summer-Items{
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 75px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.YearRound-Items {
+    background: linear-gradient(transparent, #9675B450, transparent);
+}
+
+.Fall-Items {
+    background: linear-gradient(transparent, #d4ad6550, transparent);
+}
+
+.Winter-Items {
+    background: linear-gradient(transparent, #97cdd550, transparent);
+}
+
+.Spring-Items {
+    background: linear-gradient(transparent, #bfd27250, transparent);
+}
+
+.Summer-Items {
+    background: linear-gradient(transparent, #ddd67150, transparent);
 }
 
 .swiper-container-1 .swiper-slide, .swiper-container-2 .swiper-slide,.swiper-container-3 .swiper-slide,.swiper-container-4 .swiper-slide,.swiper-container-5 .swiper-slide {
