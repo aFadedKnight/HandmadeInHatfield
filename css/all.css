@@ -2,9 +2,14 @@
     background-color: #9675B4!important; 
 }
 
-.Crafts {
-    padding: 120px;
-    display: grid;
+hr {
+    border-width: 0px;
+    background-color: black;
+    height: 3px;
+}
+
+h1 {
+    padding-top: 10px;
 }
 
 .Fall-craft {
@@ -48,23 +53,23 @@
 }
 
 .YearRound-Items {
-    background: linear-gradient(transparent, #9675B450, transparent);
+    background: linear-gradient(#00000080, #9675B450 70px);
 }
 
 .Fall-Items {
-    background: linear-gradient(transparent, #d4ad6550, transparent);
+    background: linear-gradient(#9675B450,#d4ad6550 70px);
 }
 
 .Winter-Items {
-    background: linear-gradient(transparent, #97cdd550, transparent);
+    background: linear-gradient(#d4ad6550, #97cdd550 70px);
 }
 
 .Spring-Items {
-    background: linear-gradient(transparent, #bfd27250, transparent);
+    background: linear-gradient(#97cdd550, #bfd27250 70px);
 }
 
 .Summer-Items {
-    background: linear-gradient(transparent, #ddd67150, transparent);
+    background: linear-gradient(#bfd27250, #ddd67150 70px);
 }
 
 .swiper-container-1 .swiper-slide, .swiper-container-2 .swiper-slide,.swiper-container-3 .swiper-slide,.swiper-container-4 .swiper-slide,.swiper-container-5 .swiper-slide {
@@ -167,4 +172,5 @@
 
 .swiper-container-1, .swiper-container-2,.swiper-container-3,.swiper-container-4,.swiper-container-5 {
     overflow: hidden;
+    padding-top: 5px;
 }
