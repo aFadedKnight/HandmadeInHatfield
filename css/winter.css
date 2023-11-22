@@ -2,6 +2,10 @@
     background-color: #97cdd5!important; 
 }
 
+body {
+    background-color: #97cdd580;
+}
+
 .Crafts {
     padding: 120px;
     display: grid;
