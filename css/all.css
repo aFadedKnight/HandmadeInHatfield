@@ -7,8 +7,20 @@
     display: grid;
 }
 
+.Fall-craft {
+    background-color: #d4ad65;
+}
+
 .Winter-craft {
     background-color: #97cdd5;
+}
+
+.Spring-craft {
+    background-color: #bfd272;
+}
+
+.Summer-craft {
+    background-color: #ddd671;
 }
 
 .YearRound-craft {
@@ -28,13 +40,13 @@
     text-align: center;
 }
 
-.Winter-Items, .YearRound-Items{
+.Winter-Items, .YearRound-Items, .Fall-Items, .Spring-Items, .Summer-Items{
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 75px;
 }
 
-.swiper-container-1 .swiper-slide, .swiper-container-2 .swiper-slide {
+.swiper-container-1 .swiper-slide, .swiper-container-2 .swiper-slide,.swiper-container-3 .swiper-slide,.swiper-container-4 .swiper-slide,.swiper-container-5 .swiper-slide {
     border-radius: 20px;
     overflow: hidden;
     transition: all 0.3s ease 0s;
@@ -44,20 +56,65 @@
     transform: scale(.95);
 }
 
-.swiper-container-1,.swiper-container-2 {
-    overflow: hidden;
-}
-
 #swiper-container-1 .swiper-button-next,#swiper-container-1 .swiper-button-prev {
     color: #9675B4;
-    transition: all 0.3s ease 0s;
+    transition: all 0.6s ease 0s;
+    background-color: white;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    transform: translateY(-10px);
 }
 
 #swiper-container-2 .swiper-button-next,#swiper-container-2 .swiper-button-prev {
+    color: #d4ad65;
+    transition: all 0.6s ease 0s;
+    background-color: white;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    transform: translateY(-10px);
+}
+
+#swiper-container-3 .swiper-button-next,#swiper-container-3 .swiper-button-prev {
     color: #97cdd5;
-    transition: all 0.3s ease 0s;
+    transition: all 0.6s ease 0s;
+    background-color: white;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    transform: translateY(-10px);
+}
+
+#swiper-container-4 .swiper-button-next,#swiper-container-4 .swiper-button-prev {
+    color: #bfd272;
+    transition: all 0.6s ease 0s;
+    background-color: white;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    transform: translateY(-10px);
+}
+
+#swiper-container-5 .swiper-button-next,#swiper-container-5 .swiper-button-prev {
+    color: #ddd671;
+    transition: all 0.6s ease 0s;
+    background-color: white;
+    height: 60px;
+    width: 30px;
+    border-radius: 5px;
+    transform: translateY(-10px);
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover {
     cursor: pointer;
+    transform: scale(1.1);
+}
+
+.swiper {
+    overflow: visible;
+}
+
+.swiper-container-1, .swiper-container-2,.swiper-container-3,.swiper-container-4,.swiper-container-5 {
+    overflow: hidden;
 }

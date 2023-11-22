@@ -40,10 +40,11 @@ header {
     border-bottom: none;
     border-top: none;
     border-color: #faebd7;
+    border-width: 2px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     height: 120px;
-    width: 135px;
+    width: 110px;
     background-color: #37401b;
 }
 
