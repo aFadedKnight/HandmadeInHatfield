@@ -46,8 +46,8 @@ h1 {
 }
 
 .Winter-Items, .YearRound-Items, .Fall-Items, .Spring-Items, .Summer-Items{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 35px;
     padding-bottom: 35px;
 }

@@ -383,7 +383,7 @@
         var screenWidth = window.innerWidth;
 
         // Determine the number of slides based on the screen width
-        var slidesToShow = screenWidth > 1200 ? 3 : (screenWidth > 768 ? 2 : 1);
+        var slidesToShow = screenWidth > 1200 ? 4 : (screenWidth > 992 ? 3 : (screenWidth > 768 ? 2 : 1));
 
         // Update slidesPerView for all Swiper instances
         swiper1.params.slidesPerView = slidesToShow;
