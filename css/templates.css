@@ -132,7 +132,7 @@ header {
     display: none;
 }
 
-@media (max-width: 988px) {
+@media (max-width: 786px) {
     /* Hide regular navigation on smaller screens */
     .nav__links {
         display: none;
@@ -149,7 +149,7 @@ header {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 786px) {
     /* Hide regular navigation on smaller screens */
     .Large {
         display: none;
