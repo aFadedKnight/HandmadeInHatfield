@@ -91,10 +91,10 @@ header {
     display: none;
     flex-direction: column;
     background-color: #37401b;
-    position: relative;
+    position: absolute;
     max-width: 300px;
     width: 100%;
-    margin: 0 auto;
+    z-index: 10;
 }
 
 .mobile-menu a {
