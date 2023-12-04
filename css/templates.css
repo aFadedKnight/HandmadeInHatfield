@@ -16,14 +16,15 @@ li, button {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #37401b;
-    padding: 0px 20px;
+    width: 100%;
 }
 
 .Home {
-    width: 275px;
+    height: 100px;
+    position: relative;
+    left: 15px;
 }
 
 .Home:hover {
@@ -79,7 +80,14 @@ header {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    position: relative;
 }
+
+.about-link {
+    position: absolute;
+    right: 15px;
+}
+
 .about:hover {
     background-color: #9675b47c;
 }
@@ -116,6 +124,12 @@ header {
     cursor: pointer;
     display: none;
     color: #faebd7;
+    position: absolute;
+    left: 50%;
+}
+
+.Small {
+    display: none;
 }
 
 @media (max-width: 988px) {
@@ -132,5 +146,17 @@ header {
     /* Show mobile menu on smaller screens */
     .mobile-menu.show {
         display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Hide regular navigation on smaller screens */
+    .Large {
+        display: none;
+    }
+
+    /* Show hamburger menu icon on smaller screens */
+    .Small {
+        display: block;
     }
 }
