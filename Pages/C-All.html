@@ -369,7 +369,7 @@
         },
         pagination: false,
     });
-    var swiper4 = new Swiper('.swiper-container-5', {
+    var swiper5 = new Swiper('.swiper-container-5', {
         slidesPerView: 3,
         spaceBetween: 30,
         navigation: {
@@ -377,6 +377,37 @@
             prevEl: '.swiper-button-prev',
         },
         pagination: false,
+    });
+    function updateSlidesPerView() {
+        // Get the screen width
+        var screenWidth = window.innerWidth;
+
+        // Determine the number of slides based on the screen width
+        var slidesToShow = screenWidth > 1200 ? 3 : (screenWidth > 768 ? 2 : 1);
+
+        // Update slidesPerView for all Swiper instances
+        swiper1.params.slidesPerView = slidesToShow;
+        swiper2.params.slidesPerView = slidesToShow;
+        swiper3.params.slidesPerView = slidesToShow;
+        swiper4.params.slidesPerView = slidesToShow;
+        swiper5.params.slidesPerView = slidesToShow;
+        // Repeat for other Swiper instances
+
+        // Update Swiper instances
+        swiper1.update();
+        swiper2.update();
+        swiper3.update();
+        swiper4.update();
+        swiper5.update();
+        // Repeat for other Swiper instances
+    }
+
+    // Initial update on page load
+    updateSlidesPerView();
+
+    // Listen for window resize events and update slidesPerView accordingly
+    window.addEventListener('resize', function () {
+        updateSlidesPerView();
     });
     </script>
 </body>
