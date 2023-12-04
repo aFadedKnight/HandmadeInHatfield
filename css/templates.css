@@ -31,6 +31,12 @@ header {
     cursor: pointer;
 }
 
+.Links {
+    position: relative;
+    margin: 0 auto;
+    left: -50px;
+}
+
 .nav__links {
     list-style: none;
     background-color: #faebd7;
@@ -132,7 +138,7 @@ header {
     display: none;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 990px) {
     /* Hide regular navigation on smaller screens */
     .nav__links {
         display: none;
