@@ -10,7 +10,7 @@
 }
 
 li, button {
-    font-size: 24px;
+    font-size: 150%;
     color: #faebd7;
 }
 
@@ -84,3 +84,53 @@ header {
     background-color: #9675b47c;
 }
 
+/* ... (Your existing styles) */
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #37401b;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mobile-menu a {
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid #faebd7;
+}
+
+.mobile-menu a button{
+    background-color: #37401b;
+    border: none;
+    height: 50px;
+    width: 100%;
+}
+
+/* Hamburger menu icon styles */
+.mobile-menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    color: #faebd7;
+}
+
+@media (max-width: 988px) {
+    /* Hide regular navigation on smaller screens */
+    .nav__links {
+        display: none;
+    }
+
+    /* Show hamburger menu icon on smaller screens */
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    /* Show mobile menu on smaller screens */
+    .mobile-menu.show {
+        display: flex;
+    }
+}
