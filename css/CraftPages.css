@@ -45,6 +45,7 @@ h1 {
 
 .MainCraft {
     height: 650px;
+    width: 100%;
 }
 
 .CraftInfo{
@@ -62,7 +63,7 @@ h1 {
     overflow: hidden;
     border-radius: 15px;
     margin: 0 50%;
-    left: -300px;
+    right: 370px;
 }
 
 .CraftImage img {
@@ -85,7 +86,7 @@ h1 {
 
 .Crafts {
     padding-left: 120px;
-    padding-right: 70px;
+    padding-right: 40px;
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -109,7 +110,158 @@ h1 {
     font-family: 'Patrick Hand', cursive;
     text-align: center;
     font-size: 30px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 40px;
+}
+
+@media(max-width: 1200px) {
+    .InfoText {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    h1 {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    .CraftInfo{
+        width: 60%;
+        height: 700px;
+        padding: 50px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .CraftImage{
+        position: relative;
+        width: 400px;
+        height: 500px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 0 50%;
+        right: 370px;
+    }
+    .Details {
+        position: relative;
+        border-radius: 10px;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        margin: 0 50%;
+        top: -450px;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .InfoText {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    h1 {
+        font-size: 45px;
+        padding-top: 45px;
+    }
+    .CraftInfo{
+        width: 60%;
+        height: 600px;
+        padding: 50px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .CraftImage{
+        position: relative;
+        width: 360px;
+        height: 450px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 0 50%;
+        right: 330px;
+    }
+    .Details {
+        position: relative;
+        border-radius: 10px;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        margin: 0 50%;
+        top: -450px;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+    }
+}
+@media(max-width: 800px) {
+    .InfoText {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .CraftInfo{
+        width: 60%;
+        height: 500px;
+        padding: 50px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .CraftImage{
+        position: relative;
+        width: 320px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 0 50%;
+        right: 290px;
+    }
+    .Details {
+        position: relative;
+        border-radius: 10px;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        margin: 0 50%;
+        top: -450px;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .InfoText {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+    .CraftInfo{
+        width: 60%;
+        height: 400px;
+        padding: 50px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .CraftImage{
+        position: relative;
+        width: 280px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 0 50%;
+        right: 250px;
+    }
+    .Details {
+        position: relative;
+        border-radius: 10px;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        margin: 0 50%;
+        top: -450px;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+    }
 }
