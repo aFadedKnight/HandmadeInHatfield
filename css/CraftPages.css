@@ -39,7 +39,6 @@
 
 h1 {
     text-align: center;
-    padding-top: 50px;
     font-size: 50px;
 }
 
@@ -51,7 +50,6 @@ h1 {
 .CraftInfo{
     width: 60%;
     height: 700px;
-    padding: 50px;
     margin: 0 auto;
     border-radius: 20px;
 }
@@ -112,7 +110,10 @@ h1 {
     font-size: 30px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 40px;
+}
+
+.Info {
+    position: relative;
 }
 
 @media(max-width: 1200px) {
@@ -300,5 +301,13 @@ h1 {
         top: -272px;
         font-family: 'Patrick Hand', cursive;
         font-size: 12px;
+    }
+    .Info {
+        position: relative;
+        top: -250px;
+    }
+    .Gallery{
+        position: relative;
+        top: -250px;
     }
 }
