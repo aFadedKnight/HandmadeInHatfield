@@ -182,12 +182,12 @@ h1 {
         position: relative;
         border-radius: 10px;
         padding: 20px;
-        height: 400px;
-        width: 300px;
+        height: 360px;
+        width: 270px;
         margin: 0 50%;
-        top: -450px;
+        top: -405px;
         font-family: 'Patrick Hand', cursive;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 @media(max-width: 800px) {
@@ -202,7 +202,7 @@ h1 {
     .CraftInfo{
         width: 60%;
         height: 500px;
-        padding: 50px;
+        padding: 30px;
         margin: 0 auto;
         border-radius: 20px;
     }
@@ -219,16 +219,16 @@ h1 {
         position: relative;
         border-radius: 10px;
         padding: 20px;
-        height: 400px;
-        width: 300px;
+        height: 320px;
+        width: 240px;
         margin: 0 50%;
-        top: -450px;
+        top: -360px;
         font-family: 'Patrick Hand', cursive;
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     .InfoText {
         font-size: 15px;
         padding-top: 15px;
@@ -240,7 +240,7 @@ h1 {
     .CraftInfo{
         width: 60%;
         height: 400px;
-        padding: 50px;
+        padding: 20px;
         margin: 0 auto;
         border-radius: 20px;
     }
@@ -257,11 +257,48 @@ h1 {
         position: relative;
         border-radius: 10px;
         padding: 20px;
-        height: 400px;
-        width: 300px;
+        height: 280px;
+        width: 210px;
         margin: 0 50%;
-        top: -450px;
+        top: -316px;
         font-family: 'Patrick Hand', cursive;
-        font-size: 20px;
+        font-size: 14px;
+    }
+}
+@media(max-width: 650px) {
+    .InfoText {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+    .CraftInfo{
+        width: 60%;
+        height: 300px;
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .CraftImage{
+        position: relative;
+        width: 240px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 0 50%;
+        right: 210px;
+    }
+    .Details {
+        position: relative;
+        border-radius: 10px;
+        padding: 10px;
+        height: 240px;
+        width: 180px;
+        margin: 0 50%;
+        top: -272px;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 12px;
     }
 }

@@ -102,6 +102,11 @@ header {
     background-color: #9675b47c;
 }
 
+.about button{
+    border: none;
+    background: none;
+}
+
 /* ... (Your existing styles) */
 
 /* Mobile Menu Styles */
