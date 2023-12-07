@@ -53,7 +53,7 @@ header {
     border-bottom: none;
     border-top: none;
     border-color: #faebd7;
-    border-width: 2px;
+    border-width: 1px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     height: 120px;

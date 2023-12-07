@@ -36,18 +36,53 @@ h1{
     }
 }
 
+.FallBGFull {
+    background-color: #d4ad65;
+}
+
+.FallBGPartial {
+    background-color: #d4ad65bd;
+}
+
+.WinterBGFull {
+    background-color: #97cdd5;
+}
+
+.Craft:hover {
+    box-shadow: 0px 7px 7px #97cdd5bd;
+}
+.SpringBGFull {
+    background-color: #bfd272;
+}
+
+.SpringBGPartial {
+    background-color: #bfd272bd;
+}
+.SummerBGFull {
+    background-color: #ddd671;
+}
+
+.SummerBGPartial {
+    background-color: #ddd671bd;
+}
+.YearRoundBGFull {
+    background-color: #9675B4;
+}
+
+.YearRoundBGPartial {
+    background-color: #9675B4bd;
+}
+
 .Craft {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.422);
     border-radius: 20px;
     overflow: hidden;
     transition: all 0.3s ease 0s;
-    background-color: #97cdd5;
 }
 
 .Craft:hover {
     cursor: pointer;
     transform: scale(.95);
-    box-shadow: 0px 7px 7px #97cdd586;
     color: antiquewhite;
 }
 
