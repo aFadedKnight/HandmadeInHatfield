@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Patrick+Hand&family=Sono:wght@400;500&display=swap');
 
+.FallText {
+    color: #d4ad65;
+}
+
 .FallBGFull {
     background-color: #d4ad65;
 }
 
 .FallBGPartial {
     background-color: #d4ad65bd;
+}
+
+.WinterText {
+    color: #97cdd5;
 }
 
 .WinterBGFull {
@@ -15,6 +23,11 @@
 .WinterBGPartial {
     background-color: #97cdd5bd;
 }
+
+.SpringText {
+    color: #bfd272;
+}
+
 .SpringBGFull {
     background-color: #bfd272;
 }
@@ -22,6 +35,11 @@
 .SpringBGPartial {
     background-color: #bfd272bd;
 }
+
+.SummerText {
+    color: #ddd671;
+}
+
 .SummerBGFull {
     background-color: #ddd671;
 }
@@ -29,6 +47,11 @@
 .SummerBGPartial {
     background-color: #ddd671bd;
 }
+
+.YearRoundText {
+    color: #9675B4;
+}
+
 .YearRoundBGFull {
     background-color: #9675B4;
 }
