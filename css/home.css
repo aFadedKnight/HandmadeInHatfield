@@ -1,0 +1,109 @@
+.top {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    width: 100%;
+}
+
+a {
+    color: #9675B4;
+}
+
+.top img {
+    width: 100%;
+}
+
+.featured {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    width: 100%;
+}
+
+.FeaturedCrafts {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    width: 100%;
+}
+
+.Craft {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.Craft:hover {
+    transform: scale(.95);
+}
+
+.Craft img {
+    width: 100%;
+}
+
+.Craft-Details {
+    text-align: center;
+}
+
+.FallText {
+    color: #d4ad65;
+}
+
+.FallBGFull {
+    background-color: #d4ad65;
+}
+
+.FallBGPartial {
+    background-color: #d4ad65bd;
+}
+
+.WinterText {
+    color: #97cdd5;
+}
+
+.WinterBGFull {
+    background-color: #97cdd5;
+}
+
+.WinterBGPartial {
+    background-color: #97cdd5bd;
+}
+
+.SpringText {
+    color: #bfd272;
+}
+
+.SpringBGFull {
+    background-color: #bfd272;
+}
+
+.SpringBGPartial {
+    background-color: #bfd272bd;
+}
+
+.SummerText {
+    color: #ddd671;
+}
+
+.SummerBGFull {
+    background-color: #ddd671;
+}
+
+.SummerBGPartial {
+    background-color: #ddd671bd;
+}
+
+.YearRoundText {
+    color: #9675B4;
+}
+
+.YearRoundBGFull {
+    background-color: #9675B4;
+}
+
+.YearRoundBGPartial {
+    background-color: #9675B4bd;
+}
