@@ -2,6 +2,10 @@
     background-color: #9675B4!important; 
 }
 
+body {
+    background-color: antiquewhite;
+}
+
 hr {
     border-width: 0px;
     background-color: black;
