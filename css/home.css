@@ -18,6 +18,10 @@ a {
     width: 100%;
 }
 
+.Intro {
+    font-size: 64px;
+}
+
 .featured {
     padding: 50px;
     display: grid;
