@@ -33,7 +33,7 @@ a {
 .FeaturedCrafts {
     padding: 50px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     width: 100%;
     background-color: #bfd272;
@@ -116,4 +116,16 @@ a {
 
 .YearRoundBGPartial {
     background-color: #9675B4bd;
+}
+
+@media (max-width: 1200px) {
+    .FeaturedCrafts {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .FeaturedCrafts {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
