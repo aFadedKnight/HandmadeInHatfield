@@ -79,6 +79,7 @@ h1{
 }
 
 .Craft {
+    position: relative;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.422);
     border-radius: 20px;
     overflow: hidden;
@@ -97,4 +98,28 @@ h1{
 
 .Craft-Details {
     text-align: center;
+}
+
+.CartImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 16% !important;
+    padding: 2%;
+}
+
+.Cart {
+    width: 50px;
+    position: relative;
+    
+}
+
+.FullWidth {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #9675B4;
 }

@@ -178,3 +178,27 @@ h1 {
     overflow: hidden;
     padding-top: 5px;
 }
+
+.CartImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 16% !important;
+    padding: 2%;
+}
+
+.Cart {
+    width: 50px;
+    position: relative;
+    
+}
+
+.FullWidth {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #9675B4;
+}
